@@ -24,7 +24,7 @@
           </li>
         </ul>
       </nav>
-      <a class="header_logo" href="#">
+      <a class="header_logo">
         <img
           class="header_logo-image"
           src="./images/logo-black.svg"
@@ -32,17 +32,9 @@
         />
       </a>
       <address class="address header_address">
-        <ul class="address-list">
-          <li>
-            <a class="address_text" href="tel:+99995555555">+9 999 555 5555</a>            
-          </li>
-          <li>
-            <a class="address_text" href="mailto:info@sobaka.ge">info@sobaka.ge</a>            
-          </li>
-          <li>
-            <a> наб. Принсенграхт 263- 265, Амстердам </a>
-          </li>
-        </ul>
+        <a class="address_text" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="address_text" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p>наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
     </header>
     <main>
@@ -57,12 +49,12 @@
             <p class="cover_description-text">
               Аукцион вещей, в которые никто не верил
             </p>
-            <button class="bet-button">Сделать ставку</button>
+            <button class="bet-button" type="button"> Сделать ставку </button>
           </div>
         </div>
       </section>
       <section class="lots" id="lots">
-        <h2 class="lots_title">Лоты</h2>
+        <h2 class="lots_title"> Лоты </h2>
         <ul class="lots_card-list">
           <li class="lots_card-list-item">
             <a class="card-link">
@@ -139,7 +131,7 @@
           </div>
         </div>
         <div class="about_text">
-          <h3 class="about_text-title">Об аукционе</h3>
+          <h2 class="about_text-title"> Об аукционе </h2>
           <div class="about_text-info">
             <p class="about_text-info-block">
               Здесь вы не встретите очередное пафосное собрание невероятно
@@ -148,7 +140,7 @@
               или картина, которую может нарисовать даже ребёнок? Кому нужны все
               эти странные вещи, созданные любителями?
             </p>
-            <p class="about_text-info-block-block">
+            <p class="about_text-info-block">
               Слишком сложные или, наоборот, слишком простые. Опережающие своё
               время. В пух и прах растерзанные критиками. Непринятые и
               непонятые. Когда-то они казались просто неудачными. Но, несмотря
@@ -163,24 +155,14 @@
     </main>
     <footer class="footer">
       <address class="address">
-        <ul class="address-list">
-          <li>
-            <a class="address_text" href="tel:+99995555555">+9 999 555 5555</a>
-          </li>
-          <li>
-            <a class="address_text" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          </li>
-          <li>
-            <a> наб. Принсенграхт 263-265, Амстердам </a>
-          </li>
-        </ul>
+        <a class="address_text" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="address_text" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav class="footer_menu">
         <ul class="footer_menu-list">
           <li>
-            <a class="footer_menu-link foote_menu-link_active" href="#">
-              главная
-            </a>
+            <a class="footer_menu-link foote_menu-link_active" href="#"> главная </a>
           </li>
           <li>
             <a class="footer_menu-link" href="#lots"> посмотреть лоты </a>
@@ -192,12 +174,15 @@
       </nav>
       <ul class="socials-list">
         <li class="socials-item">
-          <a class="socials-link" href="#">
-            <img src="./images/yt.svg" alt="логотип-ссылка на Ютуб " />
+          <a class="socials-link" href="#" target="_blank">
+            <img 
+              src="./images/yt.svg" 
+              alt="логотип-ссылка на Ютуб " 
+              />
           </a>
         </li>
         <li class="socials-item">
-          <a class="socials-link" href="#">
+          <a class="socials-link" href="#" target="_blank">
             <img
               src="./images/vk.svg"
               alt="логотип-ссылка на группу в Вконтакте"
@@ -205,7 +190,8 @@
           </a>
         </li>
         <li class="socials-item">
-          <a class="socials-link" href="#">
+          <a 
+            class="socials-link" href="#" target="_blank">
             <img
               src="./images/pinterest.svg"
               alt="логотип-ссылка на Пинтерест"
